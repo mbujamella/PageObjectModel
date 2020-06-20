@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="live_feed=true" audit="true" extends="task" label="NeedIt" max_length="40" name="x_500624_needit_needit" sizeclass="6" type="collection">
+    <element attributes="live_feed=true" audit="true" extends="task" label="NeedIt" max_length="40" name="x_500624_needit_needit" sizeclass="10" type="collection">
         <element default="hello this is demo" label="new Feild 2" max_length="40" name="new_feild_2" type="integer"/>
         <element label="New Field 1" max_length="40" name="new_field_1" type="integer"/>
         <element label="new Field 4" max_length="40" name="new_field_4" type="integer"/>
@@ -7,6 +7,7 @@
         <element label="New Field 3" max_length="40" name="u_new_field_3" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
         <element attributes="encode_utf8=false" label="Requested for" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Request For" mandatory="true" max_length="40" name="u_request_for" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="legal" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string">
             <choice>
                 <element inactive_on_update="false" label="Human Resources" sequence="0" value="hr"/>
