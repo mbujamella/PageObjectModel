@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
     <sys_db_object action="INSERT_OR_UPDATE">
         <access>public</access>
-        <actions_access>true</actions_access>
-        <alter_access>true</alter_access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
         <caller_access/>
-        <client_scripts_access>true</client_scripts_access>
-        <configuration_access>true</configuration_access>
-        <create_access>true</create_access>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
         <create_access_controls>true</create_access_controls>
-        <delete_access>true</delete_access>
+        <delete_access>false</delete_access>
         <extension_model/>
         <is_extendable>true</is_extendable>
         <label>NeedIt</label>
@@ -25,14 +25,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-02 03:15:14</sys_created_on>
         <sys_id>ed498c971b411010144c8515ec4bcbe0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>NeedIt</sys_name>
         <sys_package display_value="NeedIt" source="x_500624_needit">631948971b411010144c8515ec4bcba4</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
         <sys_update_name>sys_db_object_ed498c971b411010144c8515ec4bcbe0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-19 01:04:06</sys_updated_on>
+        <sys_updated_on>2020-06-21 22:03:46</sys_updated_on>
         <update_access>true</update_access>
         <user_role display_value="x_500624_needit.Occations_Users" name="x_500624_needit.Occations_Users">d50739581b211010144c8515ec4bcb00</user_role>
         <ws_access>true</ws_access>
