@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Import Historic NeedIt Data" max_length="40" name="x_500624_needit_import_historic_needit_data" sizeclass="16" type="collection">
+        <element label="Must have by" max_length="40" name="must_have_by" type="glide_date_time"/>
+        <element label="Requested_For" max_length="40" name="requested_for" type="string"/>
+        <element label="Request Type" max_length="40" name="request_type" type="string"/>
+        <element label="Short_Description" max_length="1000" name="short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Data_Type" label="Data_Type" max_length="40" name="u_data_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Date" label="Date" max_length="40" name="u_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Employee" label="Employee" max_length="40" name="u_employee" type="string"/>
+        <element label="What Needed" max_length="1000" name="what_needed" type="string"/>
+    </element>
+</database>
