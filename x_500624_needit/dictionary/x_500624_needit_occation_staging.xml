@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Occation_Staging" max_length="40" name="x_500624_needit_occation_staging" sizeclass="8" type="collection">
+    <element extends="sys_import_set_row" label="Occation_Staging" max_length="40" name="x_500624_needit_occation_staging" sizeclass="24" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Data_Type" label="Data_Type" max_length="40" name="u_data_type" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Date" label="Date" max_length="40" name="u_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Employee" label="Employee" max_length="40" name="u_employee" type="string"/>

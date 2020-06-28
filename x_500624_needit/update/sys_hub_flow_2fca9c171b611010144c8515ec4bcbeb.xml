@@ -1,0 +1,1636 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>stolen_hardware</internal_name>
+        <label_cache>[{"name":"Service Catalog_1.request_item.request.requested_for.city","label":"Trigger➛Requested Item Record➛Request➛Requested for➛City","reference":"","reference_display":"City","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"city"},{"name":"Service Catalog_1.request_item.sys_updated_by","label":"Trigger➛Requested Item Record➛Updated by","reference":"","reference_display":"Updated by","type":"string","base_type":"string","parent_table_name":"sc_req_item","column_name":"sys_updated_by"},{"name":"Service Catalog_1.request_item.assigned_to","label":"Trigger➛Requested Item Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"assigned_to"},{"name":"8e597647-a40c-4edb-a3e9-b4813c857324.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e597647-a40c-4edb-a3e9-b4813c857324.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.table_name","label":"Trigger➛Table Name","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"0b41c07e-db36-4af5-a993-36f97188ad8d.email","label":"2➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ce76a0c3-23f0-46d2-9f90-31dbe9f08870.table_name","label":"1➛Hardware Table","reference":"alm_hardware","reference_display":"Hardware","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ce76a0c3-23f0-46d2-9f90-31dbe9f08870.record","label":"1➛Hardware Record","reference":"alm_hardware","reference_display":"Hardware","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ce76a0c3-23f0-46d2-9f90-31dbe9f08870.record.assigned_to","label":"1➛Hardware Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"alm_hardware","column_name":"assigned_to"},{"name":"Service Catalog_1.request_item","label":"Trigger➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"ce76a0c3-23f0-46d2-9f90-31dbe9f08870.record.assigned_to.email","label":"1➛Hardware Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"f2ccf207-1929-4f83-bafd-1ddaebc406b4.Request","label":"3➛Request","reference":"sc_request","reference_display":"Request","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot>3eff84671ba91010144c8515ec4bcbb0</latest_snapshot>
+        <master_snapshot>3eff84671ba91010144c8515ec4bcbb0</master_snapshot>
+        <name>Stolen Hardware</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>93ffc4671ba91010144c8515ec4bcb1e</remote_trigger_id>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 01:01:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2fca9c171b611010144c8515ec4bcbeb</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Stolen Hardware</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_500624_needit">631948971b411010144c8515ec4bcba4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_update_name>sys_hub_flow_2fca9c171b611010144c8515ec4bcbeb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:23</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=2fca9c171b611010144c8515ec4bcbeb"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2fca9c171b611010144c8515ec4bcbeb"/>
+    <sys_flow_catalog_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <catalog_item/>
+        <name/>
+        <run_flow_in>background</run_flow_in>
+        <sys_class_name>sys_flow_catalog_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>93ffc4671ba91010144c8515ec4bcb1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+    </sys_flow_catalog_trigger>
+    <sys_hub_flow_component action="delete_multiple" query="flow=2fca9c171b611010144c8515ec4bcbeb^sys_idNOT INa3dea4531ba11010144c8515ec4bcb1f,bb7a2c9f1b611010144c8515ec4bcb00,c5952cdb1b611010144c8515ec4bcb8b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Stolen Hardware">2fca9c171b611010144c8515ec4bcbeb</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 02:28:48</sys_created_on>
+        <sys_id>a3dea4531ba11010144c8515ec4bcb1f</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:23</sys_updated_on>
+        <ui_id>8e597647-a40c-4edb-a3e9-b4813c857324</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a3dea4531ba11010144c8515ec4bcb1f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a3dea4531ba11010144c8515ec4bcb1f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:14</sys_created_on>
+        <sys_id>51ff04671ba91010144c8515ec4bcbaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:14</sys_updated_on>
+        <value>install_status=8</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a3dea4531ba11010144c8515ec4bcb1f</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:51:22</sys_created_on>
+        <sys_id>accfc8271ba91010144c8515ec4bcb94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:51:22</sys_updated_on>
+        <value>alm_hardware</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a3dea4531ba11010144c8515ec4bcb1f</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:51:22</sys_created_on>
+        <sys_id>e4cfc8271ba91010144c8515ec4bcb94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:51:22</sys_updated_on>
+        <value>2cfe1fc937b32000158bbfc8bcbe5d87</value>
+        <variable display_value="">4ed01916c31332002841b63b12d3aee1</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Request">d97d7480737303001038234ffff6a7c2</action_type>
+        <action_type_parent/>
+        <comment>Order New Hardware to Replace Stolen Hardware</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Stolen Hardware">2fca9c171b611010144c8515ec4bcbeb</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 02:09:42</sys_created_on>
+        <sys_id>bb7a2c9f1b611010144c8515ec4bcb00</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:23</sys_updated_on>
+        <ui_id>f2ccf207-1929-4f83-bafd-1ddaebc406b4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bb7a2c9f1b611010144c8515ec4bcb00"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bb7a2c9f1b611010144c8515ec4bcb00</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 02:09:42</sys_created_on>
+        <sys_id>3b7a2c9f1b611010144c8515ec4bcb02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 02:09:42</sys_updated_on>
+        <value>Order New Hardware to Replace Stolen Hardware</value>
+        <variable display_value="">297d7480737303001038234ffff6a7d3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bb7a2c9f1b611010144c8515ec4bcb00</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 02:09:42</sys_created_on>
+        <sys_id>777a2c9f1b611010144c8515ec4bcb02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 02:09:42</sys_updated_on>
+        <value>Order New Hardware to Replace Stolen Hardware</value>
+        <variable display_value="">9d7d7480737303001038234ffff6a7c5</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment>Notify Legal Team ofDevice is Stolen</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Stolen Hardware">2fca9c171b611010144c8515ec4bcbeb</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 01:48:13</sys_created_on>
+        <sys_id>c5952cdb1b611010144c8515ec4bcb8b</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:23</sys_updated_on>
+        <ui_id>0b41c07e-db36-4af5-a993-36f97188ad8d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c5952cdb1b611010144c8515ec4bcb8b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c5952cdb1b611010144c8515ec4bcb8b</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 02:28:49</sys_created_on>
+        <sys_id>6bdea4531ba11010144c8515ec4bcb23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 02:28:49</sys_updated_on>
+        <value>Device Stolen</value>
+        <variable display_value="">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c5952cdb1b611010144c8515ec4bcb8b</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 02:28:49</sys_created_on>
+        <sys_id>a7dea4531ba11010144c8515ec4bcb23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 02:28:49</sys_updated_on>
+        <value> legal@example.com</value>
+        <variable display_value="">59806bf4a70323008299b39f087901da</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c5952cdb1b611010144c8515ec4bcb8b</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 02:09:42</sys_created_on>
+        <sys_id>fb7ae89f1b611010144c8515ec4bcbfe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 02:09:42</sys_updated_on>
+        <value/>
+        <variable display_value="">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c5952cdb1b611010144c8515ec4bcb8b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>c5952cdb1b611010144c8515ec4bcb8b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 02:09:42</sys_created_on>
+        <sys_id>b77ae89f1b611010144c8515ec4bcbfe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 02:09:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:eae14097-6928-41ef-a3aa-875916d26660}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:eae14097-6928-41ef-a3aa-875916d26660}}"&gt;1➛Hardware Record➛Assigned to➛Email&lt;button id="transform_function_facade_eae14097-6928-41ef-a3aa-875916d26660" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;A Device Hardware is stolen&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Device&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:10a0169e-36e4-4891-a69f-62625a7d2926}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:10a0169e-36e4-4891-a69f-62625a7d2926}}"&gt;1➛Hardware Record➛Assigned to➛Email&lt;button id="transform_function_facade_10a0169e-36e4-4891-a69f-62625a7d2926" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Assigned to&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>c5952cdb1b611010144c8515ec4bcb8b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 02:09:42</sys_created_on>
+        <sys_id>7b7ae89f1b611010144c8515ec4bcbfe</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 02:28:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>c5952cdb1b611010144c8515ec4bcb8b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 01:48:13</sys_created_on>
+        <sys_id>49952cdb1b611010144c8515ec4bcb8d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 02:28:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=2fca9c171b611010144c8515ec4bcbeb^sys_idNOT IN41952cdb1b611010144c8515ec4bcb81"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Stolen Hardware">2fca9c171b611010144c8515ec4bcbeb</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 01:48:13</sys_created_on>
+        <sys_id>41952cdb1b611010144c8515ec4bcb81</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:23</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=41952cdb1b611010144c8515ec4bcb81"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>41952cdb1b611010144c8515ec4bcb81</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 01:48:13</sys_created_on>
+        <sys_id>05952cdb1b611010144c8515ec4bcb82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 01:48:13</sys_updated_on>
+        <value>foreground</value>
+        <variable display_value="">6090c72977203300f5bfcfcc78106159</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=2fca9c171b611010144c8515ec4bcbeb^sys_idNOT IN63ca9c171b611010144c8515ec4bcbee"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>2fca9c171b611010144c8515ec4bcbeb</id>
+        <name>Stolen Hardware</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 01:01:10</sys_created_on>
+        <sys_id>63ca9c171b611010144c8515ec4bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 01:01:10</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=2fca9c171b611010144c8515ec4bcbeb^sys_idNOT IN38952c9b1b611010144c8515ec4bcb0d,3c952cdb1b611010144c8515ec4bcb76"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Stolen Hardware">2fca9c171b611010144c8515ec4bcbeb</model>
+        <model_id>2fca9c171b611010144c8515ec4bcbeb</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_2fca9c171b611010144c8515ec4bcbeb</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 01:48:13</sys_created_on>
+        <sys_id>38952c9b1b611010144c8515ec4bcb0d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Stolen Hardware">2fca9c171b611010144c8515ec4bcbeb</model>
+        <model_id>2fca9c171b611010144c8515ec4bcbeb</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_2fca9c171b611010144c8515ec4bcbeb</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 01:48:13</sys_created_on>
+        <sys_id>3c952cdb1b611010144c8515ec4bcb76</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=2fca9c171b611010144c8515ec4bcbeb^sys_idNOT INa3dea4531ba11010144c8515ec4bcb1f,bb7a2c9f1b611010144c8515ec4bcb00,c5952cdb1b611010144c8515ec4bcb8b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Stolen Hardware">2fca9c171b611010144c8515ec4bcbeb</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 02:28:48</sys_created_on>
+        <sys_id>a3dea4531ba11010144c8515ec4bcb1f</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:23</sys_updated_on>
+        <ui_id>8e597647-a40c-4edb-a3e9-b4813c857324</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a3dea4531ba11010144c8515ec4bcb1f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a3dea4531ba11010144c8515ec4bcb1f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:14</sys_created_on>
+        <sys_id>51ff04671ba91010144c8515ec4bcbaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:14</sys_updated_on>
+        <value>install_status=8</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a3dea4531ba11010144c8515ec4bcb1f</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:51:22</sys_created_on>
+        <sys_id>accfc8271ba91010144c8515ec4bcb94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:51:22</sys_updated_on>
+        <value>alm_hardware</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a3dea4531ba11010144c8515ec4bcb1f</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:51:22</sys_created_on>
+        <sys_id>e4cfc8271ba91010144c8515ec4bcb94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:51:22</sys_updated_on>
+        <value>2cfe1fc937b32000158bbfc8bcbe5d87</value>
+        <variable display_value="">4ed01916c31332002841b63b12d3aee1</variable>
+    </sys_variable_value>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a3dea4531ba11010144c8515ec4bcb1f^sys_idNOT IN63dea4531ba11010144c8515ec4bcb20"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>record</input_name>
+        <instance>a3dea4531ba11010144c8515ec4bcb1f</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"record":{"scriptActive":false,"script":""}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 02:28:48</sys_created_on>
+        <sys_id>63dea4531ba11010144c8515ec4bcb20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 02:28:48</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Request">d97d7480737303001038234ffff6a7c2</action_type>
+        <action_type_parent/>
+        <comment>Order New Hardware to Replace Stolen Hardware</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Stolen Hardware">2fca9c171b611010144c8515ec4bcbeb</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 02:09:42</sys_created_on>
+        <sys_id>bb7a2c9f1b611010144c8515ec4bcb00</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:23</sys_updated_on>
+        <ui_id>f2ccf207-1929-4f83-bafd-1ddaebc406b4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bb7a2c9f1b611010144c8515ec4bcb00"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bb7a2c9f1b611010144c8515ec4bcb00</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 02:09:42</sys_created_on>
+        <sys_id>3b7a2c9f1b611010144c8515ec4bcb02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 02:09:42</sys_updated_on>
+        <value>Order New Hardware to Replace Stolen Hardware</value>
+        <variable display_value="">297d7480737303001038234ffff6a7d3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bb7a2c9f1b611010144c8515ec4bcb00</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 02:09:42</sys_created_on>
+        <sys_id>777a2c9f1b611010144c8515ec4bcb02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 02:09:42</sys_updated_on>
+        <value>Order New Hardware to Replace Stolen Hardware</value>
+        <variable display_value="">9d7d7480737303001038234ffff6a7c5</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment>Notify Legal Team ofDevice is Stolen</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Stolen Hardware">2fca9c171b611010144c8515ec4bcbeb</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 01:48:13</sys_created_on>
+        <sys_id>c5952cdb1b611010144c8515ec4bcb8b</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:23</sys_updated_on>
+        <ui_id>0b41c07e-db36-4af5-a993-36f97188ad8d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c5952cdb1b611010144c8515ec4bcb8b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c5952cdb1b611010144c8515ec4bcb8b</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 02:28:49</sys_created_on>
+        <sys_id>6bdea4531ba11010144c8515ec4bcb23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 02:28:49</sys_updated_on>
+        <value>Device Stolen</value>
+        <variable display_value="">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c5952cdb1b611010144c8515ec4bcb8b</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 02:28:49</sys_created_on>
+        <sys_id>a7dea4531ba11010144c8515ec4bcb23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 02:28:49</sys_updated_on>
+        <value> legal@example.com</value>
+        <variable display_value="">59806bf4a70323008299b39f087901da</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c5952cdb1b611010144c8515ec4bcb8b</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 02:09:42</sys_created_on>
+        <sys_id>fb7ae89f1b611010144c8515ec4bcbfe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 02:09:42</sys_updated_on>
+        <value/>
+        <variable display_value="">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c5952cdb1b611010144c8515ec4bcb8b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>c5952cdb1b611010144c8515ec4bcb8b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 02:09:42</sys_created_on>
+        <sys_id>b77ae89f1b611010144c8515ec4bcbfe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 02:09:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:eae14097-6928-41ef-a3aa-875916d26660}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:eae14097-6928-41ef-a3aa-875916d26660}}"&gt;1➛Hardware Record➛Assigned to➛Email&lt;button id="transform_function_facade_eae14097-6928-41ef-a3aa-875916d26660" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;A Device Hardware is stolen&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Device&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:10a0169e-36e4-4891-a69f-62625a7d2926}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:10a0169e-36e4-4891-a69f-62625a7d2926}}"&gt;1➛Hardware Record➛Assigned to➛Email&lt;button id="transform_function_facade_10a0169e-36e4-4891-a69f-62625a7d2926" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Assigned to&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>c5952cdb1b611010144c8515ec4bcb8b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 02:09:42</sys_created_on>
+        <sys_id>7b7ae89f1b611010144c8515ec4bcbfe</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 02:28:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>c5952cdb1b611010144c8515ec4bcb8b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 01:48:13</sys_created_on>
+        <sys_id>49952cdb1b611010144c8515ec4bcb8d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 02:28:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=2fca9c171b611010144c8515ec4bcbeb^sys_idNOT IN7b7a2c9f1b611010144c8515ec4bcb04,7f7a2c9f1b611010144c8515ec4bcb03,b77a2c9f1b611010144c8515ec4bcb04"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>2fca9c171b611010144c8515ec4bcbeb</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{ce76a0c3-23f0-46d2-9f90-31dbe9f08870.record.assigned_to.email}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 02:09:42</sys_created_on>
+        <sys_id>7b7a2c9f1b611010144c8515ec4bcb04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 02:09:42</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>eae14097-6928-41ef-a3aa-875916d26660</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>2fca9c171b611010144c8515ec4bcbeb</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{ce76a0c3-23f0-46d2-9f90-31dbe9f08870.record}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 02:09:42</sys_created_on>
+        <sys_id>7f7a2c9f1b611010144c8515ec4bcb03</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 02:09:42</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>6deb8e68-de63-43f9-abc3-99f69a76dd8a</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>2fca9c171b611010144c8515ec4bcbeb</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{ce76a0c3-23f0-46d2-9f90-31dbe9f08870.record.assigned_to.email}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 02:09:42</sys_created_on>
+        <sys_id>b77a2c9f1b611010144c8515ec4bcb04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 02:09:42</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>10a0169e-36e4-4891-a69f-62625a7d2926</ui_id>
+    </sys_hub_pill_compound>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_2fca9c171b611010144c8515ec4bcbeb^sys_idNOT IN05952cdb1b611010144c8515ec4bcb7e,fc952cdb1b611010144c8515ec4bcb74"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_2fca9c171b611010144c8515ec4bcbeb</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 01:48:13</sys_created_on>
+        <sys_id>05952cdb1b611010144c8515ec4bcb7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_500624_needit">631948971b411010144c8515ec4bcba4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 01:48:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_2fca9c171b611010144c8515ec4bcbeb</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 01:48:13</sys_created_on>
+        <sys_id>fc952cdb1b611010144c8515ec4bcb74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_500624_needit">631948971b411010144c8515ec4bcba4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 01:48:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=2fca9c171b611010144c8515ec4bcbeb^sys_idNOT INdbffc4671ba91010144c8515ec4bcb1e"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan/>
+        <plan_id>2fca9c171b611010144c8515ec4bcbeb</plan_id>
+        <snapshot>3eff84671ba91010144c8515ec4bcbb0</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dbffc4671ba91010144c8515ec4bcb1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+        <trigger display_value="">93ffc4671ba91010144c8515ec4bcb1e</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>stolen_hardware</internal_name>
+        <label_cache>[{"name":"Service Catalog_1.request_item.request.requested_for.city","label":"Trigger➛Requested Item Record➛Request➛Requested for➛City","reference":"","reference_display":"City","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"city"},{"name":"Service Catalog_1.request_item.sys_updated_by","label":"Trigger➛Requested Item Record➛Updated by","reference":"","reference_display":"Updated by","type":"string","base_type":"string","parent_table_name":"sc_req_item","column_name":"sys_updated_by"},{"name":"Service Catalog_1.request_item.assigned_to","label":"Trigger➛Requested Item Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"assigned_to"},{"name":"8e597647-a40c-4edb-a3e9-b4813c857324.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e597647-a40c-4edb-a3e9-b4813c857324.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.table_name","label":"Trigger➛Table Name","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"0b41c07e-db36-4af5-a993-36f97188ad8d.email","label":"2➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ce76a0c3-23f0-46d2-9f90-31dbe9f08870.table_name","label":"1➛Hardware Table","reference":"alm_hardware","reference_display":"Hardware","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ce76a0c3-23f0-46d2-9f90-31dbe9f08870.record","label":"1➛Hardware Record","reference":"alm_hardware","reference_display":"Hardware","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ce76a0c3-23f0-46d2-9f90-31dbe9f08870.record.assigned_to","label":"1➛Hardware Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"alm_hardware","column_name":"assigned_to"},{"name":"Service Catalog_1.request_item","label":"Trigger➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"ce76a0c3-23f0-46d2-9f90-31dbe9f08870.record.assigned_to.email","label":"1➛Hardware Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"f2ccf207-1929-4f83-bafd-1ddaebc406b4.Request","label":"3➛Request","reference":"sc_request","reference_display":"Request","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Stolen Hardware</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Stolen Hardware">2fca9c171b611010144c8515ec4bcbeb</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3eff84671ba91010144c8515ec4bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:21</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=3eff84671ba91010144c8515ec4bcbb0"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3eff84671ba91010144c8515ec4bcbb0"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=3eff84671ba91010144c8515ec4bcbb0^sys_idNOT IN0bff84671ba91010144c8515ec4bcbf9,43ffc4671ba91010144c8515ec4bcb05,cbff84671ba91010144c8515ec4bcbff"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Stolen Hardware">3eff84671ba91010144c8515ec4bcbb0</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:22</sys_created_on>
+        <sys_id>0bff84671ba91010144c8515ec4bcbf9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+        <ui_id>8e597647-a40c-4edb-a3e9-b4813c857324</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0bff84671ba91010144c8515ec4bcbf9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0bff84671ba91010144c8515ec4bcbf9</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:22</sys_created_on>
+        <sys_id>0fff84671ba91010144c8515ec4bcbfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+        <value>2cfe1fc937b32000158bbfc8bcbe5d87</value>
+        <variable display_value="">4ed01916c31332002841b63b12d3aee1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0bff84671ba91010144c8515ec4bcbf9</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:22</sys_created_on>
+        <sys_id>83ff84671ba91010144c8515ec4bcbfc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+        <value>alm_hardware</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0bff84671ba91010144c8515ec4bcbf9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:22</sys_created_on>
+        <sys_id>cfff84671ba91010144c8515ec4bcbfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+        <value>install_status=8</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Request">d97d7480737303001038234ffff6a7c2</action_type>
+        <action_type_parent display_value="Create Request">b5556f44731103005e7d234ffff6a76a</action_type_parent>
+        <comment>Order New Hardware to Replace Stolen Hardware</comment>
+        <compiled_snapshot>d97d7480737303001038234ffff6a7c2</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Stolen Hardware">3eff84671ba91010144c8515ec4bcbb0</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:22</sys_created_on>
+        <sys_id>43ffc4671ba91010144c8515ec4bcb05</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+        <ui_id>f2ccf207-1929-4f83-bafd-1ddaebc406b4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=43ffc4671ba91010144c8515ec4bcb05"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>43ffc4671ba91010144c8515ec4bcb05</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:22</sys_created_on>
+        <sys_id>0fffc4671ba91010144c8515ec4bcb06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+        <value>Order New Hardware to Replace Stolen Hardware</value>
+        <variable display_value="">297d7480737303001038234ffff6a7d3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>43ffc4671ba91010144c8515ec4bcb05</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:22</sys_created_on>
+        <sys_id>4bffc4671ba91010144c8515ec4bcb06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+        <value>Order New Hardware to Replace Stolen Hardware</value>
+        <variable display_value="">9d7d7480737303001038234ffff6a7c5</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment>Notify Legal Team ofDevice is Stolen</comment>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Stolen Hardware">3eff84671ba91010144c8515ec4bcbb0</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:22</sys_created_on>
+        <sys_id>cbff84671ba91010144c8515ec4bcbff</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+        <ui_id>0b41c07e-db36-4af5-a993-36f97188ad8d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cbff84671ba91010144c8515ec4bcbff"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cbff84671ba91010144c8515ec4bcbff</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:22</sys_created_on>
+        <sys_id>0bffc4671ba91010144c8515ec4bcb02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+        <value>Device Stolen</value>
+        <variable display_value="">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cbff84671ba91010144c8515ec4bcbff</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:22</sys_created_on>
+        <sys_id>47ffc4671ba91010144c8515ec4bcb02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+        <value/>
+        <variable display_value="">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cbff84671ba91010144c8515ec4bcbff</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:22</sys_created_on>
+        <sys_id>83ffc4671ba91010144c8515ec4bcb02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+        <value> legal@example.com</value>
+        <variable display_value="">59806bf4a70323008299b39f087901da</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=cbff84671ba91010144c8515ec4bcbff"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>cbff84671ba91010144c8515ec4bcbff</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:22</sys_created_on>
+        <sys_id>4fffc4671ba91010144c8515ec4bcb01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:eae14097-6928-41ef-a3aa-875916d26660}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:eae14097-6928-41ef-a3aa-875916d26660}}"&gt;1➛Hardware Record➛Assigned to➛Email&lt;button id="transform_function_facade_eae14097-6928-41ef-a3aa-875916d26660" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;A Device Hardware is stolen&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Device&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:10a0169e-36e4-4891-a69f-62625a7d2926}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:10a0169e-36e4-4891-a69f-62625a7d2926}}"&gt;1➛Hardware Record➛Assigned to➛Email&lt;button id="transform_function_facade_10a0169e-36e4-4891-a69f-62625a7d2926" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Assigned to&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>cbff84671ba91010144c8515ec4bcbff</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:22</sys_created_on>
+        <sys_id>03ffc4671ba91010144c8515ec4bcb02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>cbff84671ba91010144c8515ec4bcbff</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:22</sys_created_on>
+        <sys_id>8bffc4671ba91010144c8515ec4bcb01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=3eff84671ba91010144c8515ec4bcbb0^sys_idNOT IN83ffc4671ba91010144c8515ec4bcb07"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Stolen Hardware">3eff84671ba91010144c8515ec4bcbb0</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:22</sys_created_on>
+        <sys_id>83ffc4671ba91010144c8515ec4bcb07</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=83ffc4671ba91010144c8515ec4bcb07"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>83ffc4671ba91010144c8515ec4bcb07</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:22</sys_created_on>
+        <sys_id>03ffc4671ba91010144c8515ec4bcb08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+        <value>foreground</value>
+        <variable display_value="">6090c72977203300f5bfcfcc78106159</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=3eff84671ba91010144c8515ec4bcbb0^sys_idNOT IN7aff84671ba91010144c8515ec4bcbb1"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>3eff84671ba91010144c8515ec4bcbb0</id>
+        <name>Stolen Hardware</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:21</sys_created_on>
+        <sys_id>7aff84671ba91010144c8515ec4bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:21</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=3eff84671ba91010144c8515ec4bcbb0^sys_idNOT IN0fff84671ba91010144c8515ec4bcbeb,beff84671ba91010144c8515ec4bcbb2"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Stolen Hardware">3eff84671ba91010144c8515ec4bcbb0</model>
+        <model_id>3eff84671ba91010144c8515ec4bcbb0</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_3eff84671ba91010144c8515ec4bcbb0</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:21</sys_created_on>
+        <sys_id>0fff84671ba91010144c8515ec4bcbeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Stolen Hardware">3eff84671ba91010144c8515ec4bcbb0</model>
+        <model_id>3eff84671ba91010144c8515ec4bcbb0</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_3eff84671ba91010144c8515ec4bcbb0</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:21</sys_created_on>
+        <sys_id>beff84671ba91010144c8515ec4bcbb2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=3eff84671ba91010144c8515ec4bcbb0^sys_idNOT IN0bff84671ba91010144c8515ec4bcbf9,43ffc4671ba91010144c8515ec4bcb05,cbff84671ba91010144c8515ec4bcbff"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Stolen Hardware">3eff84671ba91010144c8515ec4bcbb0</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:22</sys_created_on>
+        <sys_id>0bff84671ba91010144c8515ec4bcbf9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+        <ui_id>8e597647-a40c-4edb-a3e9-b4813c857324</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0bff84671ba91010144c8515ec4bcbf9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0bff84671ba91010144c8515ec4bcbf9</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:22</sys_created_on>
+        <sys_id>0fff84671ba91010144c8515ec4bcbfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+        <value>2cfe1fc937b32000158bbfc8bcbe5d87</value>
+        <variable display_value="">4ed01916c31332002841b63b12d3aee1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0bff84671ba91010144c8515ec4bcbf9</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:22</sys_created_on>
+        <sys_id>83ff84671ba91010144c8515ec4bcbfc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+        <value>alm_hardware</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0bff84671ba91010144c8515ec4bcbf9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:22</sys_created_on>
+        <sys_id>cfff84671ba91010144c8515ec4bcbfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+        <value>install_status=8</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0bff84671ba91010144c8515ec4bcbf9^sys_idNOT IN8bff84671ba91010144c8515ec4bcbfa"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>record</input_name>
+        <instance>0bff84671ba91010144c8515ec4bcbf9</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"record":{"scriptActive":false,"script":""}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:22</sys_created_on>
+        <sys_id>8bff84671ba91010144c8515ec4bcbfa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Request">d97d7480737303001038234ffff6a7c2</action_type>
+        <action_type_parent display_value="Create Request">b5556f44731103005e7d234ffff6a76a</action_type_parent>
+        <comment>Order New Hardware to Replace Stolen Hardware</comment>
+        <compiled_snapshot>d97d7480737303001038234ffff6a7c2</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Stolen Hardware">3eff84671ba91010144c8515ec4bcbb0</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:22</sys_created_on>
+        <sys_id>43ffc4671ba91010144c8515ec4bcb05</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+        <ui_id>f2ccf207-1929-4f83-bafd-1ddaebc406b4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=43ffc4671ba91010144c8515ec4bcb05"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>43ffc4671ba91010144c8515ec4bcb05</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:22</sys_created_on>
+        <sys_id>0fffc4671ba91010144c8515ec4bcb06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+        <value>Order New Hardware to Replace Stolen Hardware</value>
+        <variable display_value="">297d7480737303001038234ffff6a7d3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>43ffc4671ba91010144c8515ec4bcb05</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:22</sys_created_on>
+        <sys_id>4bffc4671ba91010144c8515ec4bcb06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+        <value>Order New Hardware to Replace Stolen Hardware</value>
+        <variable display_value="">9d7d7480737303001038234ffff6a7c5</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment>Notify Legal Team ofDevice is Stolen</comment>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Stolen Hardware">3eff84671ba91010144c8515ec4bcbb0</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:22</sys_created_on>
+        <sys_id>cbff84671ba91010144c8515ec4bcbff</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+        <ui_id>0b41c07e-db36-4af5-a993-36f97188ad8d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cbff84671ba91010144c8515ec4bcbff"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cbff84671ba91010144c8515ec4bcbff</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:22</sys_created_on>
+        <sys_id>0bffc4671ba91010144c8515ec4bcb02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+        <value>Device Stolen</value>
+        <variable display_value="">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cbff84671ba91010144c8515ec4bcbff</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:22</sys_created_on>
+        <sys_id>47ffc4671ba91010144c8515ec4bcb02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+        <value/>
+        <variable display_value="">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cbff84671ba91010144c8515ec4bcbff</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:22</sys_created_on>
+        <sys_id>83ffc4671ba91010144c8515ec4bcb02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+        <value> legal@example.com</value>
+        <variable display_value="">59806bf4a70323008299b39f087901da</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=cbff84671ba91010144c8515ec4bcbff"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>cbff84671ba91010144c8515ec4bcbff</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:22</sys_created_on>
+        <sys_id>4fffc4671ba91010144c8515ec4bcb01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:eae14097-6928-41ef-a3aa-875916d26660}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:eae14097-6928-41ef-a3aa-875916d26660}}"&gt;1➛Hardware Record➛Assigned to➛Email&lt;button id="transform_function_facade_eae14097-6928-41ef-a3aa-875916d26660" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;A Device Hardware is stolen&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Device&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:10a0169e-36e4-4891-a69f-62625a7d2926}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:10a0169e-36e4-4891-a69f-62625a7d2926}}"&gt;1➛Hardware Record➛Assigned to➛Email&lt;button id="transform_function_facade_10a0169e-36e4-4891-a69f-62625a7d2926" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Assigned to&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>cbff84671ba91010144c8515ec4bcbff</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:22</sys_created_on>
+        <sys_id>03ffc4671ba91010144c8515ec4bcb02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>cbff84671ba91010144c8515ec4bcbff</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:22</sys_created_on>
+        <sys_id>8bffc4671ba91010144c8515ec4bcb01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=3eff84671ba91010144c8515ec4bcbb0^sys_idNOT IN47ffc4671ba91010144c8515ec4bcb08,4fffc4671ba91010144c8515ec4bcb08,cbffc4671ba91010144c8515ec4bcb08"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>3eff84671ba91010144c8515ec4bcbb0</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{ce76a0c3-23f0-46d2-9f90-31dbe9f08870.record}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:22</sys_created_on>
+        <sys_id>47ffc4671ba91010144c8515ec4bcb08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>6deb8e68-de63-43f9-abc3-99f69a76dd8a</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>3eff84671ba91010144c8515ec4bcbb0</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{ce76a0c3-23f0-46d2-9f90-31dbe9f08870.record.assigned_to.email}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:22</sys_created_on>
+        <sys_id>4fffc4671ba91010144c8515ec4bcb08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>eae14097-6928-41ef-a3aa-875916d26660</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>3eff84671ba91010144c8515ec4bcbb0</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{ce76a0c3-23f0-46d2-9f90-31dbe9f08870.record.assigned_to.email}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:22</sys_created_on>
+        <sys_id>cbffc4671ba91010144c8515ec4bcb08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:22</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>10a0169e-36e4-4891-a69f-62625a7d2926</ui_id>
+    </sys_hub_pill_compound>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_3eff84671ba91010144c8515ec4bcbb0^sys_idNOT IN0bff84671ba91010144c8515ec4bcbbd,0fff84671ba91010144c8515ec4bcbf0"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_3eff84671ba91010144c8515ec4bcbb0</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:21</sys_created_on>
+        <sys_id>0bff84671ba91010144c8515ec4bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_500624_needit">631948971b411010144c8515ec4bcba4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:21</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_3eff84671ba91010144c8515ec4bcbb0</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-27 18:52:21</sys_created_on>
+        <sys_id>0fff84671ba91010144c8515ec4bcbf0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_500624_needit">631948971b411010144c8515ec4bcba4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-27 18:52:21</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

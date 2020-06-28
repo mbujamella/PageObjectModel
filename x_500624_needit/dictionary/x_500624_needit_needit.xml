@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="live_feed=true" audit="true" extends="task" label="NeedIt" max_length="40" name="x_500624_needit_needit" sizeclass="18" type="collection">
+    <element attributes="live_feed=true" audit="true" extends="task" label="NeedIt" max_length="40" name="x_500624_needit_needit" sizeclass="35" type="collection">
         <element default="hello this is demo" label="new Feild 2" max_length="40" name="new_feild_2" type="integer"/>
         <element label="New Field 1" max_length="40" name="new_field_1" type="integer"/>
         <element label="new Field 4" max_length="40" name="new_field_4" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Birthday" max_length="40" name="u_birthday" type="string"/>
         <element label="New Due Date" max_length="40" name="u_due_date_1" type="due_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Manager" max_length="40" name="u_manager" type="string"/>
         <element label="New Field 3" max_length="40" name="u_new_field_3" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Occation_Date" max_length="40" name="u_occation_date_1" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
