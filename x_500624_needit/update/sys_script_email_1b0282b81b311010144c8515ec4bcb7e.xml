@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>Birthday Notification</name>
+        <new_lines_to_html>true</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+        var rightNow = new GlideDateTime();
+	
+	var overdueNITasks = new GlideRecord('x_58872_needit_needit_task');
+	overdueNITasks.addQuery('due_date','<=',rightNow);
+	overdueNITasks.addQuery('state','<',3);
+	overdueNITasks.addQuery('assigned_to',current.assigned_to);
+	
+	overdueNITasks.query();
+	
+	// Print to the Message field on a notification
+	var count = overdueNITasks.getRowCount();
+	if(count > 1){
+		template.print("In addition to this overdue NeedIt Task, you have " + (count - 1) + " more overdue NeedIt Tasks.");
+	}
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-02 00:24:32</sys_created_on>
+        <sys_id>1b0282b81b311010144c8515ec4bcb7e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Birthday Notification</sys_name>
+        <sys_package display_value="NeedIt" source="x_500624_needit">631948971b411010144c8515ec4bcba4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_update_name>sys_script_email_1b0282b81b311010144c8515ec4bcb7e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-02 21:53:48</sys_updated_on>
+    </sys_script_email>
+</record_update>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_500624_needit_occation_staging</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<p>Dear ${u_first_name}</p>
+<p>May your birthday be the start of a year filled with good luck, good health, and much happiness!</p>
+<p>Number:${number}</p>
+<p>Occasion Date: ${u_date}</p>
+<p>${mail_script:FindBirthdaysOnTheSameDay}</p>
+<p>${mail_script:AddCC}<br />Incorrect Birthday date ? Click here to correct the date.</p>
+<p>Birthdate: ${u_glide_birthdate}</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>mailto.incorrectBirthday</name>
+        <sms_alternate/>
+        <subject>Re.Incorrect Birthday</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 22:02:17</sys_created_on>
+        <sys_id>15e16d471b311010144c8515ec4bcb8b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>mailto.incorrectBirthday</sys_name>
+        <sys_package display_value="NeedIt" source="x_500624_needit">631948971b411010144c8515ec4bcba4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_update_name>sysevent_email_template_15e16d471b311010144c8515ec4bcb8b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 22:12:10</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>
