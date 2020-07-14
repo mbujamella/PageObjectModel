@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="DELETE">
+        <category display_value="Special Day Properties">165eb9c71b711010144c8515ec4bcbd0</category>
+        <order>1</order>
+        <property display_value="change.conflict.refresh.scheduled" name="change.conflict.refresh.scheduled">dc80fda2c30102002ba7e219cdba8fdb</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-09 00:05:57</sys_created_on>
+        <sys_id>8380424b1b711010144c8515ec4bcb51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>change.conflict.refresh.scheduled.Special Day Properties</sys_name>
+        <sys_package display_value="NeedIt" source="x_500624_needit">631948971b411010144c8515ec4bcba4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_8380424b1b711010144c8515ec4bcb51</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-09 00:05:57</sys_updated_on>
+    </sys_properties_category_m2m>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">631948971b411010144c8515ec4bcba4</application>
+        <file_path/>
+        <instance_id>5b0c3c12dbc39f047e55d5b0cf961991</instance_id>
+        <instance_name>dev63624</instance_name>
+        <name>sys_properties_category_m2m_8380424b1b711010144c8515ec4bcb51</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m"><sys_properties_category_m2m action="INSERT_OR_UPDATE"><category display_value="Special Day Properties">165eb9c71b711010144c8515ec4bcbd0</category><order>1</order><property display_value="change.conflict.refresh.scheduled" name="change.conflict.refresh.scheduled">dc80fda2c30102002ba7e219cdba8fdb</property><sys_class_name>sys_properties_category_m2m</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-09 00:05:57</sys_created_on><sys_id>8380424b1b711010144c8515ec4bcb51</sys_id><sys_mod_count>0</sys_mod_count><sys_name>change.conflict.refresh.scheduled.Special Day Properties</sys_name><sys_package display_value="NeedIt" source="x_500624_needit">631948971b411010144c8515ec4bcba4</sys_package><sys_policy/><sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope><sys_update_name>sys_properties_category_m2m_8380424b1b711010144c8515ec4bcb51</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-09 00:05:57</sys_updated_on></sys_properties_category_m2m></record_update>]]></payload>
+        <payload_hash>-2109686865</payload_hash>
+        <record_name>change.conflict.refresh.scheduled.Special Day Properties</record_name>
+        <reverted_from/>
+        <source>428fd5ff1ba55010144c8515ec4bcb52</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-09 00:05:57</sys_created_on>
+        <sys_id>8441c64b1b711010144c8515ec4bcbf6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17330e4a5270000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-09 00:05:57</sys_updated_on>
+        <type>Category Property</type>
+        <update_guid>cc41c64bfe7110104f55c71d26225cf5</update_guid>
+        <update_guid_history>cc41c64bfe7110104f55c71d26225cf5:-2109686865</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-09 00:08:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties_category_m2m">sys_properties_category_m2m</sys_db_object>
+        <sys_id>12409108ea8e42f0823cc0b3b93c9559</sys_id>
+        <sys_metadata>8380424b1b711010144c8515ec4bcb51</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>change.conflict.refresh.scheduled.Special Day Properties</sys_name>
+        <sys_package display_value="NeedIt" source="x_500624_needit">631948971b411010144c8515ec4bcba4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_scope_delete display_value="">0b155e7e251f4848a095895f7e959864</sys_scope_delete>
+        <sys_update_name>sys_properties_category_m2m_8380424b1b711010144c8515ec4bcb51</sys_update_name>
+        <sys_update_version display_value="sys_properties_category_m2m_8380424b1b711010144c8515ec4bcb51">8441c64b1b711010144c8515ec4bcbf6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-09 00:08:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

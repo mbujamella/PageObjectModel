@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="Auto Recovery Properties">ea7fd523c31231002effe8ea4dba8fdd</category>
+        <order>200</order>
+        <property display_value="x_500624_needit.autoCloseOverdue" name="x_500624_needit.autoCloseOverdue">3c0cc6cf1b711010144c8515ec4bcb38</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-09 01:09:49</sys_created_on>
+        <sys_id>a3df06c31bb11010144c8515ec4bcb9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_500624_needit.autoCloseOverdue.Auto Recovery Properties</sys_name>
+        <sys_package display_value="NeedIt" source="x_500624_needit">631948971b411010144c8515ec4bcba4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_a3df06c31bb11010144c8515ec4bcb9a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-09 01:09:49</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>

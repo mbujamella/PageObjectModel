@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category">
+    <sys_properties_category action="INSERT_OR_UPDATE">
+        <name>Special Day Properties</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 23:56:44</sys_created_on>
+        <sys_id>165eb9c71b711010144c8515ec4bcbd0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Special Day Properties</sys_name>
+        <sys_package display_value="NeedIt" source="x_500624_needit">631948971b411010144c8515ec4bcba4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_update_name>sys_properties_category_165eb9c71b711010144c8515ec4bcbd0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 23:56:44</sys_updated_on>
+        <title><![CDATA[<p><strong>Special Days Properties</strong></p>
+<p>These properties can be read and updated by users with the Employee special Days application&#39;s admin role.</p>]]></title>
+    </sys_properties_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=165eb9c71b711010144c8515ec4bcbd0"/>
+</record_update>

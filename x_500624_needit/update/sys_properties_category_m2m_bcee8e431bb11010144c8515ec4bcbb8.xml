@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="NeedIt Properties">d10b0ecf1b711010144c8515ec4bcb75</category>
+        <order>100</order>
+        <property display_value="x_500624_needit.advancedNoticeDays" name="x_500624_needit.advancedNoticeDays">943d4a031bb11010144c8515ec4bcb70</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-09 01:05:33</sys_created_on>
+        <sys_id>bcee8e431bb11010144c8515ec4bcbb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_500624_needit.advancedNoticeDays.NeedIt Properties</sys_name>
+        <sys_package display_value="NeedIt" source="x_500624_needit">631948971b411010144c8515ec4bcba4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_bcee8e431bb11010144c8515ec4bcbb8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-09 01:05:33</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>
