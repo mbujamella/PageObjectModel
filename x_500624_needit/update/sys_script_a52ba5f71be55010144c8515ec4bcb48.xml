@@ -6,7 +6,7 @@
         <action_insert>false</action_insert>
         <action_query>false</action_query>
         <action_update>false</action_update>
-        <active>true</active>
+        <active>false</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -18,7 +18,7 @@
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name/>
+        <name>NeedIt When needed field date</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -37,15 +37,15 @@ gs.eventQueue('x_500624_needit_needit.Occations_users',current,current.number,gs
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a52ba5f71be55010144c8515ec4bcb48</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>NeedIt When needed field date</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_500624_needit">631948971b411010144c8515ec4bcba4</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
         <sys_update_name>sys_script_a52ba5f71be55010144c8515ec4bcb48</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-28 20:10:39</sys_updated_on>
+        <sys_updated_on>2020-07-26 21:41:34</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

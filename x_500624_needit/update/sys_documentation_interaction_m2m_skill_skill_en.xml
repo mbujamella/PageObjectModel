@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="skill" label="Skill" language="en" table="interaction_m2m_skill">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>skill</element>
+            <help/>
+            <hint/>
+            <label>Skill</label>
+            <language>en</language>
+            <name>interaction_m2m_skill</name>
+            <plural>Skills</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-14 22:35:48</sys_created_on>
+            <sys_id>3926644d1bc21010144c8515ec4bcb38</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Skill</sys_name>
+            <sys_package display_value="NeedIt" source="x_500624_needit">631948971b411010144c8515ec4bcba4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+            <sys_update_name>sys_documentation_interaction_m2m_skill_skill_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-14 22:35:48</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

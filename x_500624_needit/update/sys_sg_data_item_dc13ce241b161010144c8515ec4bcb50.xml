@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description>All of my open NeedIt records</description>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>My Open NeedIt Requests</name>
+        <query_condition table="x_500624_needit_needit">^ORDERBYnumber<item endquery="false" field="" goto="false" newquery="false" operator="ORDERBY" or="false" value="number"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-26 02:20:29</sys_created_on>
+        <sys_id>dc13ce241b161010144c8515ec4bcb50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Open NeedIt Requests</sys_name>
+        <sys_package display_value="NeedIt" source="x_500624_needit">631948971b411010144c8515ec4bcba4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_update_name>sys_sg_data_item_dc13ce241b161010144c8515ec4bcb50</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-26 02:20:29</sys_updated_on>
+        <table>x_500624_needit_needit</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=dc13ce241b161010144c8515ec4bcb50"/>
+</record_update>

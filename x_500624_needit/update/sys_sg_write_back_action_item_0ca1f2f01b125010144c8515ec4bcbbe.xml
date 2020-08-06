@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description>Update the number of houses destroyed in EarthQuake</description>
+        <execution_script/>
+        <name>Update Houses Destroyed</name>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-27 00:24:06</sys_created_on>
+        <sys_id>0ca1f2f01b125010144c8515ec4bcbbe</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Update Houses Destroyed</sys_name>
+        <sys_package display_value="NeedIt" source="x_500624_needit">631948971b411010144c8515ec4bcba4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_0ca1f2f01b125010144c8515ec4bcbbe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-27 01:05:40</sys_updated_on>
+        <table>x_500624_my_cst_dm_earthquakes_data</table>
+        <template>house_destroyed=12^magnititude={{Priority}}^EQ</template>
+        <type>update</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=0ca1f2f01b125010144c8515ec4bcbbe"/>
+</record_update>

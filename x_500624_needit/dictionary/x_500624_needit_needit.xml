@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="live_feed=true" audit="true" extends="task" label="NeedIt" max_length="40" name="x_500624_needit_needit" sizeclass="71" type="collection">
+    <element attributes="live_feed=true" audit="true" extends="task" label="NeedIt" max_length="40" name="x_500624_needit_needit" sizeclass="74" type="collection">
         <element default="hello this is demo" label="new Feild 2" max_length="40" name="new_feild_2" type="integer"/>
         <element label="New Field 1" max_length="40" name="new_field_1" type="integer"/>
         <element label="new Field 4" max_length="40" name="new_field_4" type="integer"/>
