@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_source">
+    <sys_report_source action="INSERT_OR_UPDATE">
+        <description/>
+        <display>API Stats This year (API Transactions Requestor Stats)</display>
+        <filter table="sys_api_stats_requestor">start_periodONThis year@javascript:gs.beginningOfThisYear()@javascript:gs.endOfThisYear()<item endquery="false" field="start_period" goto="false" newquery="false" operator="ON" or="false" value="This year@javascript:gs.beginningOfThisYear()@javascript:gs.endOfThisYear()"/>
+        </filter>
+        <name>API Stats This year</name>
+        <sys_class_name>sys_report_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-07 00:53:33</sys_created_on>
+        <sys_id>6fd16fdc1b621010144c8515ec4bcbc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>API Stats This year (API Transactions Requestor Stats)</sys_name>
+        <sys_package display_value="NeedIt" source="x_500624_needit">631948971b411010144c8515ec4bcba4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">631948971b411010144c8515ec4bcba4</sys_scope>
+        <sys_update_name>sys_report_source_6fd16fdc1b621010144c8515ec4bcbc0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-07 00:53:33</sys_updated_on>
+        <table>sys_api_stats_requestor</table>
+    </sys_report_source>
+</record_update>

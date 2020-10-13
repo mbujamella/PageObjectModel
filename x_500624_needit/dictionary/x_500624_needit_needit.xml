@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="live_feed=true" audit="true" extends="task" label="NeedIt" max_length="40" name="x_500624_needit_needit" sizeclass="74" type="collection">
+    <element attributes="live_feed=true" audit="true" extends="task" label="NeedIt" max_length="40" name="x_500624_needit_needit" sizeclass="78" type="collection">
+        <element attributes="target_field=percent_complete_target,target_threshold_colors=0:color1;33:color2;66:color3;90:color4,target_field=target" label="% Complete" max_length="15" name="complete" type="percent_complete"/>
         <element default="hello this is demo" label="new Feild 2" max_length="40" name="new_feild_2" type="integer"/>
         <element label="New Field 1" max_length="40" name="new_field_1" type="integer"/>
         <element label="new Field 4" max_length="40" name="new_field_4" type="integer"/>
+        <element label="Target" max_length="20" name="target" type="decimal"/>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Birthday" max_length="40" name="u_birthday" type="string"/>
         <element label="New Due Date" max_length="40" name="u_due_date_1" type="due_date"/>
         <element attributes="edge_encryption_enabled=true" label="Manager" max_length="40" name="u_manager" type="string"/>
